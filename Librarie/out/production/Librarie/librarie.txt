@@ -1,0 +1,31 @@
+Intr-o librarie pot exista doua tipuri de carti: de beletristica si istorice. orice carte are un nume, un autor, un pret si un isbn. O carte de beletristica are in plus un numar de personaje si o carte istorica are in plus numele persoanei sau evenimentului istoric despre care se relateaza.
+
+Se cere realizarea unei aplicatii care gestioneaza o singura librarie si care are urmatoarele functionalitati 
+1. adaugare unei carti. daca exista deja o carte cu isbn-ul dat, atunci se va arunca o exceptie DuplicateIsbmException. Totodata, daca se depaseste numarul de 100 de carti in librarie, se va arunca NotEnoughSpaceException.
+
+2. cumpararea (deci stergerea) unei carti dupa isbn
+
+3. afisarea tutror cartilor
+
+4. afisarea doar a cartilor istorice.
+
+5. stergerea tutror cartilor de la un anumit autor
+
+Comenzile corespunzatoare de la tastatura sunt : 
+
+1. "ADD <tip_carte> <nume_carte> <autor> <pret> <isbn> <inf>", unde <tip_carte> poate fi "beletristica" sau "istorica" si <inf> este numarul de personaje sau numele unei persoane sau a unui eveniment istoric
+
+2. BUY <isbn>
+
+3. PRINT
+
+4. PRINT_H
+
+5. REMOVE <autor>
+
+In plus, se cere realizarea unui fir de executie care, o data la 30 de secunde, afiseaza numarul de carti din librarie. (nu e nevoie)
+
+In realizarea aplicatiei, se va avea in vedere:
+- encapsularea claselor
+- folosirea lui singleton pattern unde este necesar
+- folosirea expresiilor lambda unde se poate  
