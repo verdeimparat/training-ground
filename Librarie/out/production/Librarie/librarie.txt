@@ -28,4 +28,6 @@ In plus, se cere realizarea unui fir de executie care, o data la 30 de secunde, 
 In realizarea aplicatiei, se va avea in vedere:
 - encapsularea claselor
 - folosirea lui singleton pattern unde este necesar
-- folosirea expresiilor lambda unde se poate  
+- folosirea expresiilor lambda unde se poate
+
+-adaugare optiune de EXIT pana cand va fi construita interfata grafica (EXIT_ON_CLOSE)
